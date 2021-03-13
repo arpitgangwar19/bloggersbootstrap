@@ -12,33 +12,41 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-          <a class="navbar-brand" href="#">BloGGers</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="/">Home</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">AboutUs</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="contact.html">ContactUs</a>
-                  </li>
-                  <li class="nav-item">
-                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">LogIn</button>
-                      
-                  </li>&nbsp;
-                  <li class="nav-item">
-                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#signup">SignUp</button>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BloGGers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">AboutUs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">ContactUs</a>
+                    </li>
+                    <li class="nav-item">
+                      <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">LogIn</button>
+                        
+                    </li>&nbsp;
+                    <li class="nav-item">
+                      <button type="button" class="btn btn-light" data-toggle="modal" data-target="#signup">SignUp</button>
 
-                  </li>
-              </ul>
-            </div>
+                    </li>
+                </ul>
+              </div>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+
+            
+        </div>
+    </nav>
       <div class="container" >
         <h1 class="my10 mx10 ">Contact Us<span class="badge badge-dark  "></span></h1><br>
     <form class="needs-validation" novalidate>
@@ -108,7 +116,7 @@
             </div>
           </div>
         </div>
-        <button class="btn btn-primary col-md-10 mb-3" type="submit" id="button1" data-toggle="modal" data-target="#exampleModal">Submit form</button>
+        <button class="btn btn-primary col-md-10 mb-3" type="submit" id="button1" data-toggle="modal" data-target="#submit">Submit form</button>
       </form>
     </div>
 
@@ -121,7 +129,7 @@
 
   
   <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="submit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
